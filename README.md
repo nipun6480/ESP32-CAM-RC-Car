@@ -1,26 +1,24 @@
-# ESP32-CAM RC Car 🚗📷
 
-A WiFi controlled RC car with live camera streaming using ESP32-CAM.
+---
 
-## Features
-- Live video streaming
-- Wireless control
-- Mobile friendly interface
-- ESP32 based system
+## How It Works
 
-## Hardware
-- ESP32-CAM
-- L298N Motor Driver
-- DC Motors
-- Battery
+1. ESP32-CAM creates a WiFi connection.
+2. Camera stream is served via HTTP.
+3. Control commands are sent from the controller.
+4. Motors respond to commands in real time.
 
-## Project Structure
+---
 
-ESP32-CAM-RC-Car
-│
-├── esp32_rc_car.ino
-├── controller.html
-└── README.md
+## Related Project
+
+Controller for this car:
+
+https://github.com/nipun6480/ESP32-RC-Controller
+
+---
 
 ## Author
-Nipun
+
+Nipun Pandey  
+Instrumentation Engineering Student
